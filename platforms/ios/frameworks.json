@@ -1,0 +1,19 @@
+{
+    "AdSupport.framework": 2,
+    "AudioToolbox.framework": 2,
+    "AVFoundation.framework": 2,
+    "CoreLocation.framework": 2,
+    "CoreTelephony.framework": 2,
+    "EventKit.framework": 2,
+    "EventKitUI.framework": 2,
+    "Foundation.framework": 2,
+    "MessageUI.framework": 2,
+    "QuartzCore.framework": 2,
+    "StoreKit.framework": 2,
+    "SystemConfiguration.framework": 2,
+    "UIKit.framework": 2,
+    "CoreData.framework": 1,
+    "libz.dylib": 1,
+    "libsqlite3.dylib": 1,
+    "MediaPlayer.framework": 1
+}

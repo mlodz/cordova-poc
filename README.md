@@ -1,2 +1,2 @@
-# lemon
+# Lemon
 Cordova Project Template
