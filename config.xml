@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.mlodzianoski.youllfigureitout" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.mlodzianoski.youllfigureitout" version="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Youll Figure It Out</name>
     <description>
         Keep trying. Youll figure it out.
@@ -47,26 +47,13 @@
 
 
 
+
     <preference name="SplashScreen" value="splash"/>
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashScreenDelay" value="20000"/>
 
     <preference name="FadeSplashScreen" value="true"/>
     <preference name="FadeSplashScreenDuration" value="1000"/>
-
-
-<!-- 
-
-> cordova plugin ls
-
-cordova-android-support-v4 4.0.0 "Android Support v4"
-cordova-plugin-admobpro 2.12.0 "AdMob Plugin Pro"
-cordova-plugin-extension 1.2.9 "Cordova Plugin Extension"
-cordova-plugin-splashscreen 3.1.0 "Splashscreen"
-cordova-plugin-whitelist 1.2.1 "Whitelist"
-
--->
-
 
 
 </widget>

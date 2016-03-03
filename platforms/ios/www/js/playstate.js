@@ -6,19 +6,14 @@ var playState = {
 	if(window.analytics) {
 	    window.analytics.trackView('Begin Game');
 	}
-	if(window.googleplaygame) {
-	    window.googleplaygame.isSignedIn(function (result) {
-		alert("isSignedIn" + result.isSignedIn);
-	    });
-	}
 	this.storage = window.localStorage;
 
 	// create sprites
-	var background = game.add.image(0, 0, 'background');
+	var background = pgame.add.image(0, 0, 'background');
 	//background.anchor.set(0.5);
 
-	this.title_text = game.add.text(
-	    game.world.centerX,
+	this.title_text = pgame.add.text(
+	    pgame.world.centerX,
 	    10,
 	    " you'll figure it out ", 
 	    {
@@ -28,8 +23,8 @@ var playState = {
 	    }
 	);
 	this.title_text.anchor.set(0.5, 0);
-	this.score_text = game.add.text(
-	    game.world.centerX,
+	this.score_text = pgame.add.text(
+	    pgame.world.centerX,
 	    54,
 	    "",
 	    {
@@ -40,8 +35,8 @@ var playState = {
 	);
 	this.score_text.anchor.set(0.5, 0);
 
-	this.reset_text = game.add.text(
-	    game.world.centerX,
+	this.reset_text = pgame.add.text(
+	    pgame.world.centerX,
 	    98,
 	    " reset score ",
 	    {
@@ -71,8 +66,8 @@ var playState = {
 	for(var i=0;  i < card_count; i++) {
 	    var y = y_start + i*y_diff;
 	    
-	    var card = game.add.text(
-		game.world.centerX,
+	    var card = pgame.add.text(
+		pgame.world.centerX,
 		y,
 		"", 
 		{
@@ -163,7 +158,7 @@ var playState = {
     },
 
     print_score: function() {
-	//var dimensions = "\nDimensions: " + game.width + " x " + game.height + " : " + window.devicePixelRatio;
+	//var dimensions = "\nDimensions: " + pgame.width + " x " + pgame.height + " : " + window.devicePixelRatio;
 	var wins = this.win_lose_counter.wins();
 	var losses = this.win_lose_counter.losses();
 	var score = this.win_lose_counter.score();

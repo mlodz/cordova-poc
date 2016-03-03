@@ -39,6 +39,7 @@
 		0A1A9254F800415789F58318 /* AdMobMediation.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBB104E935148199CA2F3EF /* AdMobMediation.m */; };
 		26673C8A6E494CAAA382336B /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3AC09C5D47E430D95C4E21F /* GoogleMobileAds.framework */; };
 		63B7FE34DF87403D9535F5D5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F25DBF3FDA4BB3AAE3E0F4 /* MediaPlayer.framework */; };
+		F5431631C66642EF98D0F7BE /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3836C133C0D41809B21C76E /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 		70401EB0D9E54F2C9B932558 /* AdMobMediation.h */ = {isa = PBXFileReference; name = "AdMobMediation.h"; path = "cordova-plugin-admobpro/AdMobMediation.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		F3AC09C5D47E430D95C4E21F /* GoogleMobileAds.framework */ = {isa = PBXFileReference; name = "GoogleMobileAds.framework"; path = "Youll Figure It Out/Plugins/cordova-plugin-admobpro/GoogleMobileAds.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		B1F25DBF3FDA4BB3AAE3E0F4 /* MediaPlayer.framework */ = {isa = PBXFileReference; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		C3836C133C0D41809B21C76E /* GameKit.framework */ = {isa = PBXFileReference; name = "GameKit.framework"; path = "System/Library/Frameworks/GameKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				B9B593CAD5654FCE8B6CD3DD /* libsqlite3.dylib in Frameworks */,
 				26673C8A6E494CAAA382336B /* GoogleMobileAds.framework in Frameworks */,
 				63B7FE34DF87403D9535F5D5 /* MediaPlayer.framework in Frameworks */,
+				F5431631C66642EF98D0F7BE /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +227,7 @@
 				7C4812580BC24405B8DB789A /* libsqlite3.dylib */,
 				F3AC09C5D47E430D95C4E21F /* GoogleMobileAds.framework */,
 				B1F25DBF3FDA4BB3AAE3E0F4 /* MediaPlayer.framework */,
+				C3836C133C0D41809B21C76E /* GameKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
